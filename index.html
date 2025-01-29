@@ -27,7 +27,7 @@
     <style type="text/tailwindcss">
       @theme {
         --color-clifford: #da373d;
-        --color-light-dark: rgba(115, 115, 115, 1);
+        --color-light-dark: #737373;
         --color-primarily: #abef5f;
         --color-secondarily: #acef5f67;
       }
@@ -156,7 +156,7 @@
               <div class="md:w-full lg:w-1/2">
                 <div>
                   <span
-                    class="text-base font-bold py-2 px-4 bg-white rounded-2xl mb-4 inline-block"
+                    class="text-base font-bold py-2 px-4 bg-white rounded-full mb-4 inline-block"
                     ><i class="fa-solid fa-arrow-right"></i> About Us</span
                   >
                   <h1 class="text-[40px] font-extrabold">
@@ -244,11 +244,11 @@
           <div class="px-4 mt-24">
             <div class="text-center">
               <span
-                class="text-base font-bold py-2 px-4 bg-white rounded-2xl mb-4 inline-block"
+                class="text-base font-bold py-2 px-4 bg-white rounded-full mb-4 inline-block"
                 ><i class="fa-solid fa-arrow-right"></i> How we works</span
               >
               <h1 class="text-[40px] font-extrabold">Our Works Process</h1>
-              <p class="py-6 text-base w-1/2 mx-auto">
+              <p class="py-6 text-base md:w-1/2 mx-auto">
                 The barn house captivates with its blend of rustic charm and
                 modern sophistication, featuring weathered wood, sleek metal
                 accents.
@@ -309,6 +309,96 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio section -->
+      <section class="py-24 max-w-[1170px] mx-auto md:bg-gray-100 lg:bg-white">
+        <div class="text-center">
+          <span
+            class="text-base font-bold py-2 px-4 bg-secondarily rounded-full mb-4 inline-block"
+            ><i class="fa-solid fa-arrow-right"></i> Explore our Latest
+            works</span
+          >
+          <h1 class="text-[40px] font-extrabold">Our Latest Portfolio</h1>
+          <p class="py-6 text-base md:w-1/2 mx-auto">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+        </div>
+        <div>
+          <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-12 gap-6">
+            <div
+              class="flex flex-col md:flex-row p-6 border rounded-xl gap-6 mx-2 md:mx-0 md:col-span-4 lg:col-span-8 bg-white"
+            >
+              <div class="lg:w-full">
+                <img
+                  class="w-full object-cover h-full"
+                  src="./assets/img1.png"
+                  alt=""
+                />
+              </div>
+              <div class="space-y-4">
+                <h3 class="text-2xl font-extrabold">Commercial</h3>
+                <p class="text-base">
+                  The barn house captivates with its blend of rustic charm and
+                  modern. The barn house captivates with its blend of rustic
+                  charm and modern .
+                </p>
+                <button
+                  class="justify-center flex items-center gap-2 text-xl rounded-[32px] font-bold"
+                >
+                  View Details
+                  <span
+                    class="bg-[#ABEF5F] text-black text-xl h-8 w-8 flex items-center justify-center rounded-full"
+                    ><i class="fa-solid fa-arrow-right -rotate-12"></i
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="md:col-span-2 lg:col-span-4 p-6 border rounded-xl mx-2 md:mx-0 bg-white"
+            >
+              <img class="w-full h-full" src="./assets/img2.png" alt="" />
+            </div>
+            <div
+              class="md:col-span-2 lg:col-span-3 border p-6 rounded-xl gap-6 mx-2 md:mx-0 bg-white"
+            >
+              <img class="w-full" src="./assets/img3.png" alt="" />
+            </div>
+            <div
+              class="flex p-6 border rounded-xl gap-6 mx-2 md:mx-0 flex-col md:flex-row md:col-span-4 lg:col-span-6 bg-white"
+            >
+              <div>
+                <img class="w-full" src="./assets/img4.png" alt="" />
+              </div>
+              <div class="space-y-4 flex-1">
+                <h3 class="text-2xl font-extrabold">Commercial</h3>
+                <p class="text-base">
+                  The barn house captivates with its blend of rustic charm and
+                  modern.
+                </p>
+                <button
+                  class="justify-center flex items-center gap-2 text-xl rounded-[32px] font-bold"
+                >
+                  View Details
+                  <span
+                    class="bg-[#ABEF5F] text-black text-xl h-8 w-8 flex items-center justify-center rounded-full"
+                    ><i class="fa-solid fa-arrow-right -rotate-12"></i
+                  ></span>
+                </button>
+              </div>
+            </div>
+            <div
+              class="md:col-span-2 lg:col-span-3 border p-6 rounded-xl gap-6 mx-2 md:mx-0 bg-white"
+            >
+              <img class="w-full" src="./assets/img5.png" alt="" />
+            </div>
+            <div
+              class="md:col-span-2 lg:col-span-1 border p-6 rounded-xl gap-6 mx-2 md:mx-0 lg:hidden bg-white"
+            >
+              <img class="w-full" src="./assets/img4.png" alt="" />
             </div>
           </div>
         </div>
